@@ -27,7 +27,7 @@ import (
 type TextEffectNumber int
 
 // ToAnsi returns the [ansicodes.EscapeSequence] corresponding to ten.
-func (ten TextEffectNumber) ToAnsi() {
+func (ten TextEffectNumber) ToAnsi() ansicodes.EscapeSequence {
 	return EscapeSequence(ten)
 }
 
