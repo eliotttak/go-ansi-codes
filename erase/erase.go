@@ -23,21 +23,21 @@ const FromCursorUntilEndOfScreen ansicodes.EscapeSequence = "\033[0J"
 
 // FromCursorToBeginningOfScreen erases everything
 // from the cursor to the beginning of the screen
-const FromCursorToBeginningOfScreen ansicodes.EscapeSequence = "\033[0J"
+const FromCursorToBeginningOfScreen ansicodes.EscapeSequence = "\033[1J"
 
 // Screen erases the entire screen
-const Screen ansicodes.EscapeSequence = "\033[0J"
+const Screen ansicodes.EscapeSequence = "\033[2J"
 
 // SavedLines erases every saved lines
-const SavedLines ansicodes.EscapeSequence = "\033[0J"
+const SavedLines ansicodes.EscapeSequence = "\033[3J"
 
 // FromCursorToEndOfLine erases everything from the cursor
 // to the end of the line
-const FromCursorToEndOfLine ansicodes.EscapeSequence = "\033[0J"
+const FromCursorToEndOfLine ansicodes.EscapeSequence = "\033[0K"
 
 // FromStartOfLineToCursor erases everything from the
 // start of the line to the cursor
-const FromStartOfLineToCursor ansicodes.EscapeSequence = "\033[0J"
+const FromStartOfLineToCursor ansicodes.EscapeSequence = "\033[1K"
 
 // Line erases the entire line
-const Line ansicodes.EscapeSequence = "\033[0J"
+const Line ansicodes.EscapeSequence = "\033[2K"
