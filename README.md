@@ -22,7 +22,7 @@
 		* Purple
 		* Cyan
 		* White
-	+ Support for 8-bits colors, or 256 colors. [The image below](#8bits-color-codes) defines the
+	+ Support for 8-bits colors, or 256 colors. [The image below](#8-bits-color-codes) defines the
 	  8-bits colors codes.
 	+ Support for TrueType colors (24-bits, or 256³ = 16777216 colors).
 - Cursor management:
